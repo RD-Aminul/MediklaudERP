@@ -1,0 +1,310 @@
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\appsettings.Development.json
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\appsettings.json
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.exe
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.deps.json
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.runtimeconfig.json
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.pdb
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.DirectoryServices.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.csproj.AssemblyReference.cache
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.GeneratedMSBuildEditorConfig.editorconfig
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.AssemblyInfoInputs.cache
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.AssemblyInfo.cs
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.csproj.CoreCompileInputs.cache
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.MvcApplicationPartsAssemblyInfo.cs
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.MvcApplicationPartsAssemblyInfo.cache
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.mediklaud_api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.build.mediklaud_api.props
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.mediklaud_api.props
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.mediklaud_api.props
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets.pack.json
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets.build.json
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets.development.json
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\scopedcss\bundle\mediklaud_api.styles.css
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.csproj.CopyComplete
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\refint\mediklaud_api.dll
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.pdb
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.genruntimeconfig.cache
+D:\KIRON\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\ref\mediklaud_api.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\appsettings.Development.json
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\appsettings.json
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.exe
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.deps.json
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.runtimeconfig.json
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.pdb
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.DirectoryServices.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.csproj.AssemblyReference.cache
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.GeneratedMSBuildEditorConfig.editorconfig
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.AssemblyInfoInputs.cache
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.AssemblyInfo.cs
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.csproj.CoreCompileInputs.cache
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.MvcApplicationPartsAssemblyInfo.cs
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.MvcApplicationPartsAssemblyInfo.cache
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.mediklaud_api.Microsoft.AspNetCore.StaticWebAssets.props
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.build.mediklaud_api.props
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.mediklaud_api.props
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.mediklaud_api.props
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets.pack.json
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets.build.json
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets.development.json
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\scopedcss\bundle\mediklaud_api.styles.css
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.csproj.CopyComplete
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\refint\mediklaud_api.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.pdb
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.genruntimeconfig.cache
+E:\MediKlaud Limited\Working Now\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\ref\mediklaud_api.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\appsettings.Development.json
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\appsettings.json
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.exe
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.deps.json
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.runtimeconfig.json
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.pdb
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.DirectoryServices.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.csproj.AssemblyReference.cache
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.AssemblyInfoInputs.cache
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.AssemblyInfo.cs
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.csproj.CoreCompileInputs.cache
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.MvcApplicationPartsAssemblyInfo.cs
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.MvcApplicationPartsAssemblyInfo.cache
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.mediklaud_api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.build.mediklaud_api.props
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.mediklaud_api.props
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.mediklaud_api.props
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets.build.json
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets.development.json
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\scopedcss\bundle\mediklaud_api.styles.css
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.csproj.CopyComplete
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\refint\mediklaud_api.dll
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.pdb
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.genruntimeconfig.cache
+D:\Office Projects\MediKloud\Api & React\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\ref\mediklaud_api.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\appsettings.Development.json
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\appsettings.json
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.exe
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.deps.json
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.runtimeconfig.json
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.pdb
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.DirectoryServices.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.csproj.AssemblyReference.cache
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.GeneratedMSBuildEditorConfig.editorconfig
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.AssemblyInfoInputs.cache
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.AssemblyInfo.cs
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.csproj.CoreCompileInputs.cache
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.MvcApplicationPartsAssemblyInfo.cs
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.MvcApplicationPartsAssemblyInfo.cache
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.mediklaud_api.Microsoft.AspNetCore.StaticWebAssets.props
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.build.mediklaud_api.props
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.mediklaud_api.props
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.mediklaud_api.props
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets.pack.json
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets.build.json
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets.development.json
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\scopedcss\bundle\mediklaud_api.styles.css
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.csproj.CopyComplete
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\refint\mediklaud_api.dll
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.pdb
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.genruntimeconfig.cache
+E:\MediKlaud Limited\Working Now\MediklaudERP\MediklaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\ref\mediklaud_api.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\appsettings.Development.json
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\appsettings.json
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.exe
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.deps.json
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.runtimeconfig.json
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\mediklaud_api.pdb
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.DirectoryServices.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.csproj.AssemblyReference.cache
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.GeneratedMSBuildEditorConfig.editorconfig
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.AssemblyInfoInputs.cache
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.AssemblyInfo.cs
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.csproj.CoreCompileInputs.cache
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.MvcApplicationPartsAssemblyInfo.cs
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.MvcApplicationPartsAssemblyInfo.cache
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.mediklaud_api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.build.mediklaud_api.props
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.mediklaud_api.props
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.mediklaud_api.props
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets.pack.json
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets.build.json
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\staticwebassets.development.json
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\scopedcss\bundle\mediklaud_api.styles.css
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.csproj.CopyComplete
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\refint\mediklaud_api.dll
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.pdb
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\mediklaud_api.genruntimeconfig.cache
+D:\KIRON\MediKlaudERP\mediklaud_api\MediKlaudAPI6\obj\Debug\net6.0\ref\mediklaud_api.dll

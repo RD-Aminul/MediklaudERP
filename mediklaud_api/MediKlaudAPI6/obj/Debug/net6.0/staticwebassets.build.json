@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pT3kYP0bmydCXk4mukUzayYIJo3o7RyW/r8MmKkwAmQ=",
+  "Source": "mediklaud_api",
+  "BasePath": "_content/mediklaud_api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
