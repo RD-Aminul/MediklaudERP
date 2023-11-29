@@ -24,6 +24,8 @@ builder.Services.AddTransient<IPhrPurchaseReceiveService, PhrPurchaseReceiveServ
 builder.Services.AddTransient<IPhrBillingService, PhrBillingService>();
 builder.Services.AddTransient<ISignInService, SignInService>();
 builder.Services.AddTransient<IPhrGRNService, PhrGRNService>();
+builder.Services.AddTransient<IPurchaseRequsitionOrderService, PurchaseRequsitionOrderService>();
+
 
 builder.Services.AddSingleton<IMediklaudDBConnection, MediklaudDBConnection>();
 

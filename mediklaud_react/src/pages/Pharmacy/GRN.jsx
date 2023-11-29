@@ -59,8 +59,7 @@ function MRN() {
 
   const [serSupplierList, setSerSupplierList] = useState([null]);
   const [selectedSerSupplier, setSelectedSerSupplier] = useState(null);
-  const [selectedSerSupplierValue, setSelectedSerSupplierValue] =
-    useState("-1");
+  const [selectedSerSupplierValue, setSelectedSerSupplierValue] = useState("-1");
 
   const [storeList, setStoreList] = useState([null]);
   const [selectedStore, setSelectedStore] = useState(null);
@@ -661,13 +660,13 @@ function MRN() {
     storeNoValue,
     supplierNoValue,
     serarchInputValue
-  ) => {
+      ) => {
     let approvalFlag = trnTypeValue;
     let storeNo = storeNoValue;
     let supplierNo = supplierNoValue;
     let phrTrnIdForSearch = serarchInputValue;
-    let startDate = "01/01/2002";
-    let endDate = "01/01/2024";
+    let startDate = "01/01/2020";
+    let endDate = "01/01/2025";
     try {
       let response = await fetch(
         variables.API_URL +
@@ -1472,27 +1471,15 @@ function MRN() {
                   <tbody>
                     {currentTransactions.map((transaction) => (
                       <tr
-                        key={transaction.PHR_TRN_NO}
-                        className="My-Tag-Font-Size"
-                      >
+                        key={transaction.PHR_TRN_NO} className="My-Tag-Font-Size">
                         <td className="text-start">{transaction.PHR_TRN_ID}</td>
-                        <td className="text-start">
-                          {transaction.TRN_DATETIME}
-                        </td>
+                        <td className="text-start">{transaction.TRN_DATETIME}</td>
                         <td className="text-start">{transaction.STORE_NAME}</td>
-                        <td className="text-start">
-                          {transaction.SUPPLIER_NAME}
-                        </td>
-                        <td className="text-start">
-                          {transaction.SUPP_INVOICE_NO}
-                        </td>
+                        <td className="text-start">{transaction.SUPPLIER_NAME}</td>
+                        <td className="text-start">{transaction.SUPP_INVOICE_NO}</td>
                         <td className="text-start">{transaction.TRN_STATUS}</td>
-                        <td className="text-start">
-                          {transaction.APPROVE_BY_NAME}
-                        </td>
-                        <td className="text-start">
-                          {transaction.APPROVE_DATE}
-                        </td>
+                        <td className="text-start">{transaction.APPROVE_BY_NAME}</td>
+                        <td className="text-start">{transaction.APPROVE_DATE}</td>
                         <td className="text-start">{transaction.USER_NAME}</td>
                         <td className="text-start">{transaction.NET_AMOUNT}</td>
                         <td className="text-end">

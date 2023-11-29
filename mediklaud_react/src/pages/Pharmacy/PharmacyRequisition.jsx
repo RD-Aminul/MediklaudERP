@@ -466,8 +466,8 @@ function PurchaseRequisition() {
             try {
                 let response = await fetch(
                     variables.API_URL +
-                    `PhrPurchaseRequisition/GetPhrItemList?GID=${encodeURIComponent(gid)}&
-             CID=${encodeURIComponent(cid)}&SupplierNo=${encodeURIComponent(supplierNo)}`,
+                    `PhrPurchaseRequisition/GetPhrItemList?GID=${encodeURIComponent(gid)}
+                    &CID=${encodeURIComponent(cid)}&SupplierNo=${encodeURIComponent(supplierNo)}`,
                     { method: "GET" }
                 );
 

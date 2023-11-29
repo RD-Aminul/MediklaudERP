@@ -21,7 +21,7 @@ function Navbar() {
 
 
   const handleNavClick = (path) => {
-    debugger
+    
     navigate(path, {
         state: {
           userData: userData,
@@ -69,6 +69,14 @@ function Navbar() {
                   onClick={() => handleNavClick("/PurchaseRequisition")}
                 >
                    Requisition
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  onClick={() => handleNavClick("/PurchaseOrder")}
+                >
+                   Purchase Order
                 </a>
               </li>
             </ul>

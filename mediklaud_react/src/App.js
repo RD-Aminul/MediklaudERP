@@ -6,6 +6,8 @@ import Login from '../src/pages/Login/Login';
 import Navbar from './pages/Navbar/Navbar';
 import POS from './pages/Pharmacy/PhrPOS';
 import Phr_Requisition from './pages/Pharmacy/PharmacyRequisition';
+import PurchaseOrder from './pages/Pharmacy/PhrPurchaseRequsitionOrder';
+
 
 function App() {
   return (
@@ -39,6 +41,16 @@ function App() {
               <>
                 <Navbar />
                 <Phr_Requisition />
+              </>
+            }
+          />
+
+          <Route
+            path="/PurchaseOrder"
+            element={
+              <>
+                <Navbar />
+                <PurchaseOrder />
               </>
             }
           />
