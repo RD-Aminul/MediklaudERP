@@ -24,4 +24,22 @@
         public string? StartDate { get; set; }
         public string? EndDate { get; set; }
     }
+
+    public class PurReqOrderItemList
+    {
+        public int? GID { get; set; }
+        public int? CID { get; set; }
+        public string? SupplierNo { get; set; }
+        public string? SuppQuotFlag { get; set; }
+    }
+
+    public class PurReqOrderRequsitionNo
+    {
+        public int? GID { get; set; }
+        public int? CID { get; set; }
+        public string? StartDate { get; set; }
+        public string? EndDate { get; set; }
+        public string? StoreNo { get; set; }
+        public string? SupplierNo { get; set; }
+    }
 }

@@ -14,6 +14,12 @@ namespace mediklaud_api.Controllers.Pharmacy.Entry
             _purchaseRequsitionOrder = purchaseRequsitionOrder;
         }
 
+        [HttpGet("GetConfigaration")]
+        public async Task<string> GetConfigaration([FromQuery] CommonGID_CID_For_PurReqOrd commonGID_CID_For_PurReqOrd)
+        {
+            return await _purchaseRequsitionOrder.GetConfigaration(commonGID_CID_For_PurReqOrd);
+        }
+
         [HttpGet("GetSerStoreList")]
         public async Task<string> GetSerStoreList([FromQuery] PurReqOrderStoreList purReqOrderStoreList)
         {
@@ -48,6 +54,18 @@ namespace mediklaud_api.Controllers.Pharmacy.Entry
         public async Task<string> GetTransactionList([FromQuery] TransactionListForPhrReqOrd transactionListForPhrReqOrd)
         {
             return await _purchaseRequsitionOrder.GetTransactionList(transactionListForPhrReqOrd);
+        }
+
+        [HttpGet("GetItemList")]
+        public async Task<string> GetItemList([FromQuery] PurReqOrderItemList purReqOrderItemList)
+        {
+            return await _purchaseRequsitionOrder.GetItemList(purReqOrderItemList);
+        }
+
+        [HttpGet("GetRequisitionList")]
+        public async Task<string> GetRequisitionList([FromQuery] PurReqOrderRequsitionNo purReqOrderRequsitionNo)
+        {
+            return await _purchaseRequsitionOrder.GetRequisitionList(purReqOrderRequsitionNo);
         }
     }
 }

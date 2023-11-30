@@ -21,7 +21,7 @@ function Navbar() {
 
 
   const handleNavClick = (path) => {
-    
+
     navigate(path, {
         state: {
           userData: userData,
@@ -113,3 +113,4 @@ function Navbar() {
 }
 
 export default Navbar;
+

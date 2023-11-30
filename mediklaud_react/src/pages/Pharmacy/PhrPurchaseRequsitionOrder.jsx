@@ -5,6 +5,9 @@ import { useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
+
 
 
 function PurchaseOrder() {
@@ -46,15 +49,50 @@ function PurchaseOrder() {
   const [selectedforStoreListEntry, setSelectedforStoreListEntry] = useState([null]);
   const [selectedforStoreListEntryValue, setSelectedforStoreListEntryValue] = useState("-1")
 
-  
+  const [selectedPayMode, setSelectedPayMode] = useState("1");
+
   const [serSupplierList, setSerSupplierList] = useState([null]);
   const [selectedSerSupplier, setSelectedSerSupplier] = useState(null);
   const [selectedSerSupplierValue, setselectedSerSupplierValue] = useState("-1");
+
   const [searchValue, setSearchValue] = useState("");
   const [transactionList, setTransationList] = useState([]);
 
   const [currentPage, setCurrentPage] = useState(1);
   const transactionsPerPage = 10;
+
+  const [inputNotesValue, setInputNotesValue] = useState("");
+  const [inputOrderNoValue, setInputOrderNoValue] = useState("");
+  const [inputOrderDateValue, setInputOrderDateValue] = useState("");
+  const [selectedExpectedDate, setSelectedExpectedDate] = useState("");
+  const [inputStatusValue, setInputStatusValue] = useState("");
+  const [inputApproveValue, setInputApproveValue] = useState("");
+  const [inputUserNameValue, setInputUserNameValue] = useState("");
+
+  const [itemListEntryview, setItemListForEntryview] = useState([null]);
+  const [selectedItemForEntry, setSelectedItemForEntry] = useState([null]);
+  const [selectedItemForEntryValue, setSelectedItemForEntryValue] = useState("-1");
+
+  const [requsitionNoEntry, setRequsitionNoEntry] = useState([null]);
+  const [selectedRequsitionNoEntry, setSelectedRequsitionNoEntry] = useState([null]);
+  const [selectedRequsitionNoEntryValue, setSelectedRequsitionNoEntryValue] = useState("-1");
+
+  const [supplierQuotFlag, setSupplierQuotFlag] = useState("")
+
+
+
+
+
+
+  const [selectedDate, setSelectedDate] = useState(null);
+  // const customPlaceholderText = 'Please Select Expected Date..'; // Customize this text as needed
+
+
+
+
+
+
+
 
 
   // ..........................Onchange Or OnClick........................
@@ -85,16 +123,38 @@ function PurchaseOrder() {
   const handleStoreChange = (selectedOption) => {
     setSelectedStoreForEntry(selectedOption);
     setSelectedStoreForEntryValue(selectedOption.value);
+    getRequisitionList(selectedOption.value, selectedSupplierForEntryValue);
   };
 
   const handleSupplierChange = (selectedOption) => {
     setSelectedSupplierForEntry(selectedOption);
     setSelectedSupplierForEntryValue(selectedOption.value);
+    getItemList(selectedOption.value);
+    getRequisitionList(selectedforStoreListEntryValue, selectedOption.value);
   };
 
-  const handleForStoreChange=(selectedOption)=>{
+  const handleForStoreChange = (selectedOption) => {
     setSelectedforStoreListEntry(selectedOption);
     setSelectedforStoreListEntryValue(selectedOption.value);
+  };
+
+  const handlePayModeChange = (event) => {
+    const value = event.target.value;
+    setSelectedPayMode(value);
+  }
+
+  const handleNotesChange = (event) => {
+    setInputNotesValue(event.target.value);
+  };
+
+  const handleItemChange = (selectedOption) => {
+    setSelectedItemForEntry({ label: selectedOption.label });
+    setSelectedItemForEntryValue(selectedOption.value);
+  };
+
+  const handleReqNoChange = (selectedOption) => {
+    setSelectedRequsitionNoEntry({ label: selectedOption.label });
+    setSelectedRequsitionNoEntryValue(selectedOption.value);
   };
 
   const clearFilterClick = () => {
@@ -108,12 +168,50 @@ function PurchaseOrder() {
   };
 
   const toggelEntryForm = () => {
+    setLoading(true);
     setIsEntryVisible(!isEntryVisible);
     setIsListVisible(false);
+
+    const timeoutId = setTimeout(() => {
+      setLoading(false);
+    }, 100);
+    return () => clearTimeout(timeoutId);
+  };
+
+  const toggelListForm = () => {
+    setLoading(true);
+    getTransationList("-1", "-1", "-1", "P");
+
+    setIsListVisible(!isListVisible);
+    setIsEntryVisible(false);
+
+    const timeoutId = setTimeout(() => {
+      setLoading(false);
+    }, 100);
+    return () => clearTimeout(timeoutId);
   };
 
 
   // ................GetDataFormAPI............................
+
+  const GetConfigaration = async () => {
+    try {
+      let response = await fetch(
+        variables.API_URL +
+        `PurchaseRequsitionOrder/GetConfigaration?GID=${encodeURIComponent(gid)}&CID=${encodeURIComponent(cid)}`,
+        { method: "GET" }
+      );
+
+      if (!response.ok) {
+        throw new Error("Failed to fetch data from the API.");
+      }
+      let data = await response.json();
+      let suppQuotApplyFlag = data[0].SUPP_QUOT_APPLY_FLAG;
+      setSupplierQuotFlag(suppQuotApplyFlag);
+    } catch (error) {
+      setSupplierQuotFlag("");
+    }
+  };
 
   const getSerStoreList = async () => {
     try {
@@ -211,7 +309,6 @@ function PurchaseOrder() {
 
   const getSupplierList = async () => {
     try {
-      debugger
       let response = await fetch(
         variables.API_URL + `PurchaseRequsitionOrder/GetSupplierList?GID=${encodeURIComponent(gid)}&CID=${encodeURIComponent(cid)}`,
         { method: "GET" }
@@ -220,12 +317,51 @@ function PurchaseOrder() {
         throw new Error("Failed to fetch data from the API.");
       }
       let data = await response.json();
-      debugger
       setSupplierListForEntryView(data);
     } catch (error) {
       setSupplierListForEntryView([])
     }
   };
+
+  const getItemList = async (supplierNo) => {
+    try {
+      let response = await fetch(
+        variables.API_URL + `PurchaseRequsitionOrder/GetItemList?GID=${encodeURIComponent(gid)}&CID=${encodeURIComponent(cid)}
+        &SupplierNo=${encodeURIComponent(supplierNo)}&SuppQuotFlag=${encodeURIComponent(supplierQuotFlag.toString())}`,
+        { method: "GET" }
+      );
+      if (!response.ok) {
+        throw new Error("Failed to fetch data from the API.");
+      }
+      let data = await response.json();
+      setItemListForEntryview(data);
+    } catch (error) {
+      setItemListForEntryview([])
+    }
+  };
+
+  const getRequisitionList = async (StoreNo, supplierNo) => {
+    try {
+      debugger
+      let response = await fetch(
+        variables.API_URL + `PurchaseRequsitionOrder/GetRequisitionList?GID=${encodeURIComponent(gid)}&CID=${encodeURIComponent(cid)}
+        &StartDate=${encodeURIComponent("")}&EndDate=${encodeURIComponent("")}&StoreNo=${encodeURIComponent(StoreNo)}
+        &SupplierNo=${encodeURIComponent(supplierNo)}`,
+        { method: "GET" }
+      );
+      if (!response.ok) {
+        throw new Error("Failed to fetch data from the API.");
+      }
+      let data = await response.json();
+      debugger
+
+      setRequsitionNoEntry(data);
+    } catch (error) {
+      setRequsitionNoEntry([])
+    }
+  };
+
+
   // ................Options.................
 
   const SearchStoreList = serStoreList.map((serStore) => ({
@@ -248,10 +384,30 @@ function PurchaseOrder() {
     label: supplier?.SUPPLIER_NAME || "",
   }));
 
-  const forStoreListForEntryview = forStoreListEntryView.map((forStore)=>({
+  const forStoreListForEntryview = forStoreListEntryView.map((forStore) => ({
     value: forStore?.STORE_NO || "",
     label: forStore?.STORE_NAME || "",
-  }))
+  }));
+
+  const itemListForEntryview = itemListEntryview.map((item) => ({
+    value: item?.ITEM_NO || "",
+    label: item?.ITEM_NAME || "",
+    label1: item?.ITEM_ID || "",
+    label2: item?.UOM_NAME || "",
+    label3: item?.BOX_QTY || "",
+    label4: item?.SALES_PRICE || "",
+    label5: item?.PURCHASE_PRICE || "",
+  }));
+
+  const requsitionNoEntryview = requsitionNoEntry.map((no) => ({
+    value: no?.PHR_PUR_REQ_NO || "",
+    label: no?.PHR_PUR_REQ_ID || "",
+    label1: no?.PUR_REQ_DATE || "",
+    label2: no?.TOTAL_AMT || "",
+    label3: no?.SUPPLIER_NAME || "",
+    label4: no?.FROM_STORE_NAME || "",
+  }));
+
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
@@ -301,14 +457,52 @@ function PurchaseOrder() {
     }),
   };
 
+  const itemddlStyle = {
+    menuPortal: (provided) => ({
+      ...provided,
+      zIndex: 9999,
+    }),
+    menu: (provided) => ({
+      ...provided,
+      width: 800,
+      fontSize: "10pt",
+    }),
+    control: (base) => ({
+      ...base,
+      minHeight: 30,
+    }),
+    dropdownIndicator: (base) => ({
+      ...base,
+      padding: 4,
+    }),
+    clearIndicator: (base) => ({
+      ...base,
+      padding: 4,
+    }),
+    multiValue: (base) => ({
+      ...base,
+      backgroundColor: variables.colorPrimaryLighter,
+    }),
+    valueContainer: (base) => ({
+      ...base,
+      padding: "0px 6px",
+    }),
+    input: (base) => ({
+      ...base,
+      margin: 0,
+      padding: 0,
+    }),
+  };
+
   useEffect(() => {
     if (!userData) {
       navigate("/");
     }
     debugger;
+    getTransationList("-1", "-1", "-1", "P");
+    GetConfigaration();
     getSerStoreList();
     getSerSupplierList();
-    getTransationList("-1", "-1", "-1", "P");
     getStoreList();
     getSupplierList();
     getForStoreList();
@@ -341,9 +535,10 @@ function PurchaseOrder() {
                           <label style={{ paddingTop: "3px" }}>Type</label>
                         </div>
                         <div className="col-sm-8">
-                          <select className="form-control form-control-sm"
+                          <select className="form-control form-control-sm ddl"
                             value={selectedTypeValue}
-                            onChange={handleTypeSelectChange}>
+                            onChange={handleTypeSelectChange}
+                            style={ddlStyle}>
                             <option selected value={-1}>All</option>
                             <option value={1}>Approved</option>
                             <option value={0}>Unapproved</option>
@@ -390,7 +585,7 @@ function PurchaseOrder() {
                         </div>
                         <div className="col-sm-8">
                           <input type="text" className="form-control form-control-sm" value={searchValue}
-                            onChange={handleSerChange} placeholder="Please Search Order No" />
+                            onChange={handleSerChange} placeholder="Please Search Order No.." />
                         </div>
                       </div>
                     </div>
@@ -473,10 +668,10 @@ function PurchaseOrder() {
 
                     <div className="col-sm-3">
                       <div className="row">
-                        <div className="col-sm-4">
+                        <div className="col-sm-5">
                           <label style={{ padding: "5px" }}>Store <span style={{ color: "#FF0000" }}>*</span></label>
                         </div>
-                        <div className="col-sm-8">
+                        <div className="col-sm-7">
                           <Select
                             options={storeListForEntryview}
                             value={selectedStoreForEntry}
@@ -486,10 +681,10 @@ function PurchaseOrder() {
                       </div>
 
                       <div className="row">
-                        <div className="col-sm-4">
+                        <div className="col-sm-5">
                           <label style={{ padding: "3px" }}>Supplier<span style={{ color: "#FF0000" }}>*</span></label>
                         </div>
-                        <div className="col-sm-8">
+                        <div className="col-sm-7">
                           <Select
                             options={supplierListForEntryView}
                             value={selectedSupplierForEntry}
@@ -497,14 +692,38 @@ function PurchaseOrder() {
                             styles={ddlStyle} />
                         </div>
                       </div>
+
+                      <div className="row">
+                        <div className="col-sm-5">
+                          <label style={{ padding: "3px" }}>Requsition No<span style={{ color: "#FF0000" }}>*</span></label>
+                        </div>
+                        <div className="col-sm-7">
+                          <Select
+                            options={requsitionNoEntryview}
+                            value={selectedRequsitionNoEntry}
+                            onChange={handleReqNoChange}
+                            styles={itemddlStyle}
+                            getOptionLabel={(option) => (
+                              <div className="row">
+                                <div className="col-sm-2">{option.label}</div>
+                                <div className="col-sm-2">{option.label1}</div>
+                                <div className="col-sm-2">{option.label2}</div>
+                                <div className="col-sm-3">{option.label3}</div>
+                                <div className="col-sm-3">{option.label4}</div>
+                              </div>
+                            )}
+                            getOptionValue={(option) => option.value}
+                          />
+                        </div>
+                      </div>
                     </div>
 
                     <div className="col-sm-3">
                       <div className="row">
-                        <div className="col-sm-4">
+                        <div className="col-sm-5">
                           <label style={{ padding: "5px" }}>For Store <span style={{ color: "#FF0000" }}>*</span></label>
                         </div>
-                        <div className="col-sm-8">
+                        <div className="col-sm-7">
                           <Select
                             options={forStoreListForEntryview}
                             value={selectedforStoreListEntry}
@@ -513,6 +732,149 @@ function PurchaseOrder() {
                         </div>
                       </div>
 
+                      <div className="row">
+                        <div className="col-sm-5">
+                          <label style={{ padding: "5px" }}>Payment Mode</label>
+                        </div>
+                        <div className="col-sm-7">
+                          <select className="form-control form-control-sm"
+                            value={selectedPayMode}
+                            onChange={handlePayModeChange}
+                            style={ddlStyle}>
+                            <option selected value={1}>Cash</option>
+                            <option value={2}>Credit</option>
+                            <option value={3}>After Sales</option>
+                            <option value={4}>Others</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div className="row">
+                        <div className="col-sm-5">
+                          <label style={{ padding: "5px" }}>Notes</label>
+                        </div>
+                        <div className="col-sm-7">
+                          <input type="text" className="form-control form-control-sm"
+                            value={inputNotesValue}
+                            onChange={handleNotesChange} placeholder="Please Enter Notes.." />
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div className="col-sm-3">
+                      <div className="row">
+                        <div className="col-sm-5">
+                          <label style={{ padding: "5px" }}>Order No</label>
+                        </div>
+                        <div className="col-sm-7">
+                          <input type="text" className="form-control form-control-sm"
+                            value={inputOrderNoValue}
+                            disabled />
+                        </div>
+                      </div>
+
+                      <div className="row">
+                        <div className="col-sm-5">
+                          <label style={{ padding: "5px" }}>Order Date</label>
+                        </div>
+                        <div className="col-sm-7">
+                          <input type="text" className="form-control form-control-sm"
+                            value={inputOrderDateValue}
+                            disabled />
+                        </div>
+                      </div>
+
+                      <div className="row">
+                        <div className="col-sm-5">
+                          <label style={{ padding: "5px" }}>Expected Date</label>
+                        </div>
+                        <div className="col-sm-7">
+                          {/* <input type="text" className="form-control form-control-sm"
+                            value={selectedExpectedDate}
+                            onChange={(e) => setSelectedExpectedDate(e.target.value)} placeholder="Please Select Expected Date.."/> */}
+                          <DatePicker
+                            id="date"
+                            selected={selectedDate}
+                            onChange={(date) => setSelectedDate(date)}
+                            dateFormat="dd-MMM-yyyy"
+                            placeholderText={"Please Select Expected Date.."}
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-sm-3">
+                      <div className="row">
+                        <div className="col-sm-4">
+                          <label style={{ padding: "5px" }}>Status</label>
+                        </div>
+                        <div className="col-sm-5">
+                          <input type="text" className="form-control form-control-sm"
+                            value={inputStatusValue}
+                            disabled />
+                        </div>
+                        <div className="col-sm-3 text-end">
+                          <button className="button-24" onClick={toggelListForm}>
+                            LIST
+                          </button>
+                        </div>
+                      </div>
+
+                      <div className="row">
+                        <div className="col-sm-4">
+                          <label style={{ padding: "5px" }}>Approve</label>
+                        </div>
+                        <div className="col-sm-8">
+                          <input type="text" className="form-control form-control-sm"
+                            value={inputApproveValue}
+                            disabled />
+                        </div>
+                      </div>
+
+                      <div className="row">
+                        <div className="col-sm-4">
+                          <label style={{ padding: "5px" }}>User Name</label>
+                        </div>
+                        <div className="col-sm-8">
+                          <input type="text" className="form-control form-control-sm"
+                            value={inputUserNameValue}
+                            disabled />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="card" style={{ padding: "10px" }}>
+                <div className="card-header">
+                  <div className="row">
+
+                    <div className="col-sm-2">
+                      <div className="row">
+                        <div className="col-sm-12">
+                          <label style={{ paddingTop: "5px" }}>Item Name</label>
+                          <Select
+                            className="align"
+                            options={itemListForEntryview}
+                            value={selectedItemForEntry}
+                            onChange={handleItemChange}
+                            styles={itemddlStyle}
+                            getOptionLabel={(option) => (
+                              <div className="row">
+                                <div className="col-sm-2">{option.label}</div>
+                                <div className="col-sm-2">{option.label1}</div>
+                                <div className="col-sm-2">{option.label2}</div>
+                                <div className="col-sm-2">{option.label3}</div>
+                                <div className="col-sm-2">{option.label4}</div>
+                                <div className="col-sm-2">{option.label5}</div>
+                              </div>
+                            )}
+                            getOptionValue={(option) => option.value}
+                          />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>

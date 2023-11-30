@@ -342,5 +342,16 @@ th {
   border: 0;
   box-shadow: 1px 2px 5px #999;
   background: #d3d3d3;
-} 
+}
 
+
+.align{
+  text-align: left;
+}
+
+#date{
+  border-radius: 5px;
+  font-family: Roboto ;
+  font-size: medium;
+  width: 102%;
+}
